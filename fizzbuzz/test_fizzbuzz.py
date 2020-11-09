@@ -19,7 +19,10 @@ class TestFizzBuzz(unittest.TestCase):
         def test_multiple_of_15_return_fizzbuzz(self):
 		self.assertEqual(FizzBuzz(60), "fizzbuzz")
 		self.assertEqual(FizzBuzz(15), "fizzbuzz")
-    
+
+        # def test_it_has_range(self):
+		# self.assertEqual(FizzBuzz(110), "Not allowed")
+	
 
     
 
